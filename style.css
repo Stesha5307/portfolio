@@ -1,0 +1,201 @@
+
+.main h2 {
+    background-color: #34a4b1;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: 'Trispace', sans-serif;
+    color: white;
+    overflow-x: hidden;
+   text-decoration: none;
+  }
+
+  .page1 {
+    background-image: url("img.avif");
+    padding: 300px 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+  nav {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    float: right;
+  }
+
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    background-color: #111;
+    transition: background-color 0.3s;
+  }
+
+  .main {
+    margin: auto;
+    border-radius: 10px;
+    max-width: 90%;
+    background-image: url("Computer Science Wallpaper 1920x1080 Computer science wallpaper.png");
+  }
+  .a{
+     text-decoration: none; 
+      color: blue;
+  }
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+   
+  }
+
+  h2 {
+    color: white;
+    background-color: #21667d;
+    font-size: 50px;
+    text-align: center;
+    padding: 150px 0 300px;
+  }
+
+  h4 {
+    color: white;
+  }
+
+  .row {
+    margin: 8px -16px;
+
+  }
+
+  .row,
+  .row>.column {
+    padding: 15px;
+    padding-bottom: 30px;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: calc(0.1s * var(--i));
+    height: 330px;
+    overflow: auto;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none; 
+    overflow: auto; 
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .content:hover {
+    transform: translateY(-10px);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2), 10px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .content img {
+    transition: transform 0.3s;
+  }
+
+  .content img:hover {
+    transform: scale(1.05);
+  }
+
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      overflow: auto;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .container {
+    background-color: white;
+  }
+
+  .pin {
+    width: 20%;
+  }
+
+  footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+
+.projects-container {
+  text-align: center;
+}
