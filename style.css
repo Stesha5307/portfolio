@@ -57,7 +57,7 @@ body {
     margin: auto;
     border-radius: 10px;
     max-width: 90%;
-    background-image: url("Computer Science Wallpaper 1920x1080 Computer science wallpaper.png");
+    background-color: black;
   }
   .a{
      text-decoration: none; 
@@ -71,7 +71,7 @@ body {
 
   h2 {
     color: white;
-    background-color: #21667d;
+    background-color:black;
     font-size: 50px;
     text-align: center;
     padding: 150px 0 300px;
